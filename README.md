@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Angular Animation Instruction
+- Import a package 'BrowserAnimationsModule' in app module
+- Add 'animations' metadata under @component metadata decorator
+- Then add animation by state, style etc
+- For reuse created a file named 'animations.ts' and keep animations code on it with different export name
+- We can reuse this animations
+- Some important links :
+  - https://www.youtube.com/watch?v=ra5qNKNc95U&t=13s&ab_channel=ProgrammingwithMosh
+  - https://www.youtube.com/watch?v=0DnL5awucWE&list=PLtXDM03nZAMQPR8ghzMohgJtRFI3Nayiz&ab_channel=Devstackr
+  - https://animate.style/
