@@ -1,5 +1,11 @@
 <h1>{{title}}</h1>
 
-<button (click)="doAnimate()">Animate</button>
+<div>
+  <a routerLink="/animate-one">Animate One</a>
+</div><br>
 
-<div [@userTrigger]="state" (@userTrigger.done)="state && state =!state">{{animateTest}}</div>
+<button (click)="doAnimate()">Animate</button>
+<div [@easeAnim]="state" (@easeAnim.done)="state && state =!state">{{animateTest}}</div>
+<br><br>
+
+<router-outlet></router-outlet>
